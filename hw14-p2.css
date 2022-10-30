@@ -1,0 +1,47 @@
+.main {
+  width: 900px;
+  margin: 10px auto;
+  background-color: beige;
+  padding: 10px;
+  display: flex;
+}
+
+.side {
+  flex: 3;
+  background-color: aliceblue;
+  width: 400px;
+  padding: 20px 10px;
+
+}
+
+.shift{
+    border: 1px solid rgb(146, 160, 223);
+    border-radius: 55px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(67, 67, 192);
+    margin: 20px auto;
+    padding:13px 8px;
+    text-align: center;
+    width: 35px;
+    cursor: pointer;
+}
+
+.sideCenter {
+  flex: 1;
+  text-align: center;
+}
+
+.items{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.hide {
+  display: none;
+}
+
+.disabel{
+  background-color: rgb(233, 147, 147);
+}

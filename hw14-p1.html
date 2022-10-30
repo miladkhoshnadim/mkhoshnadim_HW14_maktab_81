@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="initial-scale=1.0" />
+    <link rel="stylesheet" href="hw14-p1.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="mainSection">
+      <div class="inputSection">
+        <input id="inptit" class="titelinput" type="text" placeholder="Titel" />
+        <input
+          id="inpDis"
+          class="discriptioninput"
+          type="text"
+          placeholder="Description"
+        />
+        <input id="inpStart" class="Dateinput" type="date" />
+        <input id="inpEnd" class="Dateinput" type="date" />
+        <button id="submited" class="buttoninput">Sub</button>
+      </div>
+      <!-- <div class="inputSection">
+        
+        <button>Sub</button>
+      </div> -->
+      <div class="todoSection">
+        <section class="taskDoingDone tasks" id="TASKsDisplay">
+          <h2>TASKs</h2>
+          <div class="singelTask" >
+            <span class="singelTaskClose">×</span>
+            <div class="singelTaskTitel"><input type="radio" /> titel</div>
+            <div class="singelTaskStart">start: 1401-03-06</div>
+            <div class="singelTaskStart">end: 1401-03-06</div>
+            <button class="singelTaskButtons">-</button>
+            <button class="singelTaskButtons">
+              <span class="informationSign">!</span>
+              </button>
+            <button class="singelTaskButtons">✓</button> 
+            <div class="ExtraInformation hiden"> Discriptions Discriptions Discriptions Discriptions</div>
+          </div>
+          
+        </section>
+        <section class="taskDoingDone Doings" id="DOingsDisplay">
+          <h2>DOings</h2>
+          <div class="singelTask">
+            <span class="singelTaskClose">×</span>
+            <div class="singelTaskTitel"><input type="radio" /> titel</div>
+            <div class="singelTaskStart">start: 1401-03-06</div>
+            <div class="singelTaskStart">end: 1401-03-06</div>
+            <button class="singelTaskButtons">-</button>
+            <button class="singelTaskButtons">
+              <span class="informationSign">!</span>
+              <!-- <img width="20px" height="20px" src="infor.png" alt=""> -->
+            </button>
+            <button class="singelTaskButtons">✓</button>
+            <div class="ExtraInformation hiden"> Discriptions Discriptions Discriptions Discriptions</div>
+          </div>
+        </section>
+        <section class="taskDoingDone Dones" id="DONEsDisplay">
+          <h2>DONEs</h2>
+          <div class="singelTask">
+            <span class="singelTaskClose">×</span>
+            <div class="singelTaskTitel"><input type="radio" /> titel</div>
+            <div class="singelTaskStart">start: 1401-03-06</div>
+            <div class="singelTaskStart">end: 1401-03-06</div>
+            <button class="singelTaskButtons">-</button>
+            <button class="singelTaskButtons">
+              <span class="informationSign">!</span>
+              <!-- <img width="20px" height="20px" src="infor.png" alt=""> -->
+            </button>
+            <button class="singelTaskButtons">✓</button>
+            <div class="ExtraInformation hiden"> Discriptions Discriptions Discriptions Discriptions</div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+  <script src="hw14-p1.js"></script>
+</html>

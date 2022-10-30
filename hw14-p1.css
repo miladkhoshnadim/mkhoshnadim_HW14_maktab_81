@@ -1,0 +1,134 @@
+/***************mainSection***/
+
+.mainSection {
+  width: 900px;
+  background-color: azure;
+  margin: 10px auto;
+  border: 1px solid rgb(82, 79, 79);
+  box-shadow: 5px 5px 15px 5px rgb(124, 99, 99);
+}
+
+/*********inputs**********/
+
+.inputSection {
+  border: 1px solid rgb(241, 216, 216);
+  padding: 10px;
+  margin: 10px;
+}
+
+.titelinput {
+  height: 20px;
+  border-radius: 5px;
+}
+
+.Dateinput {
+    height: 23px;
+    border-radius: 5px;
+}
+
+.discriptioninput {
+  height: 20px;
+  width: 350px;
+  border-radius: 5px;
+}
+
+.buttoninput {
+  width: 70px;
+  height: 28px;
+  background-color: rgb(121, 233, 87);
+  border-radius: 10px;
+  color: aliceblue;
+}
+
+/*********ToDos**********/
+
+.todoSection {
+  display: flex;
+  background-color: aquamarine;
+}
+
+.taskDoingDone {
+  flex: 1;
+  border: 1px solid rgb(105, 86, 86);
+  margin: 10px;
+  padding: 10px;
+}
+
+.tasks {
+  background-color: aqua;
+}
+
+.Doings {
+  background-color: rgb(241, 225, 133);
+}
+
+.Dones {
+  background-color: rgb(243, 142, 142);
+}
+
+/***************** singel Task *****************/
+
+.singelTask {
+  background-color: azure;
+  width: 200px;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid rgb(82, 79, 79);
+  position: relative;
+}
+
+.singelTaskClose {
+  color: rgb(243, 124, 124);
+  position: absolute;
+  left: 180px;
+  top: 12px;
+  font-weight: bold;
+  font-size: 34px;
+  cursor: pointer;
+}
+
+.singelTaskTitel {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px 10px;
+}
+
+.singelTaskStart {
+  margin: 10px 15px;
+}
+
+.singelTaskButtons {
+  width: 40px;
+  height: 30px;
+  margin: 0px 12px;
+  background-color: rgb(180, 180, 233);
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.informationSign {
+  border: 1px solid rgb(65, 62, 62);
+  border-radius: 20px;
+  font-weight: bold;
+  padding: 0px 6px;
+}
+
+.ExtraInformation{
+  position: relative;
+  width: 140px;
+  min-height: 50px;
+  padding: 5px;
+  background-color: rgb(123, 233, 120);
+  text-align: center;
+  left: 25px;
+  bottom: 0px;
+  border-radius: 15px;
+  font-size: 10px;
+}
+
+.hiden {
+  display: none;
+}
